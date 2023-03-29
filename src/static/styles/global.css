@@ -48,6 +48,17 @@ body {
   background-color: var(--color-white);
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--color-gray100);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-blue700);
+  border-radius: 20px;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -133,6 +144,11 @@ input::placeholder {
   width: 1px;
   height: 1px;
   clip: rect(0 0 0 0);
+}
+
+.icon-16 {
+  width: 16px;
+  height: 16px;
 }
 
 .icon-24 {
