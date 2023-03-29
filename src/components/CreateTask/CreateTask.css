@@ -1,0 +1,30 @@
+.create-task {
+  margin-bottom: 48px;
+}
+
+.create-task__headline {
+  margin-bottom: 32px;
+  letter-spacing: 0.01em;
+  font-size: 48px;
+  color: var(--color-blue900);
+}
+
+.create-task__form {
+  display: grid;
+  grid-template-columns: 1fr 84px;
+  padding: 7px 7px 7px 20px;
+  border: 1px solid var(--color-gray100);
+  border-radius: var(--border-rd-lg);
+}
+
+.create-task__input {
+  color: var(--color-blue900);
+}
+
+.create-task__button {
+  min-height: 44px;
+  font-weight: 500;
+  background: var(--color-blue700);
+  border-radius: var(--border-rd-md);
+  color: var(--color-white);
+}
